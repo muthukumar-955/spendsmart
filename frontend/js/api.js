@@ -2,7 +2,8 @@
 
 const api = {
   async request(path, options = {}) {
-    const res = await fetch(`${CONFIG.API_BASE}${path}`, {
+    const baseUrl = 'https://spendsmart-9ai4.onrender.com'
+    const res = await fetch(`${baseUrl}${path}`, {
       headers: { 'Content-Type': 'application/json', ...options.headers },
       credentials: 'include',
       ...options,
