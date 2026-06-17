@@ -24,9 +24,7 @@ FRONTEND_URL = os.getenv('FRONTEND_URL', 'http://localhost:5500')
 CORS(app, supports_credentials=True, origins=[
     FRONTEND_URL,
     'http://localhost:5500',
-    'http://127.0.0.1:5500',
-    'http://localhost:3000',
-    'https://spendsmart-ai.vercel.app',
+    'https://spendsmart.vercel.app',
 ])
 
 db = SQLAlchemy(app)
