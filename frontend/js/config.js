@@ -4,7 +4,7 @@
 // Production: https://your-app-name.onrender.com
 
 const CONFIG = {
-  API_BASE: 'http://localhost:5000',  // ← Change this to Render URL when deploying
+  API_BASE: 'https://spendsmart-9ai4.onrender.com',  // ← Change this to Render URL when deploying
   APP_NAME: 'SpendSmart',
   CURRENCY: '₹',                      // ← Change currency symbol here
   CATEGORIES: [                        // ← Add/remove categories here
