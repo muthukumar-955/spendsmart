@@ -149,7 +149,7 @@ const CONFIG = {
    - **Root Directory:** `backend`
    - **Runtime:** `Python 3`
    - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `gunicorn app:app`
+   - **Start Command:** `gunicorn app:app --bind 0.0.0.0:$PORT`
 5. **Environment Variables** (add these):
 
 | Key | Value |
